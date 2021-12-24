@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="bg.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="TTT.css">
+</head>
+<body>
+    <aside class="aside">
+        <button id="star_btn" onclick="star()">Start Game</button><br><br>
+        <label for="o">O</label>
+        <input class="ox x" type="text" readonly><br><br>
+        <label for="x">X</label>
+        <input class="ox x" type="text" readonly><br>
+        <span id="result"></span>
+    </aside>
+    <section class="section">
+        <div class="main_div">
+            <h1 style="text-align: center;text-decoration: underline;color: yellow;">Tic Tac Toe</h1>
+            <div class="row_div">
+                <button class="row_btn" onclick="btnValueFun(0)">&nbsp;</button>
+                <button class="row_btn" onclick="btnValueFun(1)">&nbsp;</button>
+                <button class="row_btn" onclick="btnValueFun(2)">&nbsp;</button>
+            </div>
+            <div class="row_div">
+                <button class="row_btn" onclick="btnValueFun(3)">&nbsp;</button>
+                <button class="row_btn" onclick="btnValueFun(4)">&nbsp;</button>
+                <button class="row_btn" onclick="btnValueFun(5)">&nbsp;</button>
+            </div>
+            <div class="row_div">
+                <button class="row_btn" onclick="btnValueFun(6)">&nbsp;</button>
+                <button class="row_btn" onclick="btnValueFun(7)">&nbsp;</button>
+                <button class="row_btn" onclick="btnValueFun(8)">&nbsp;</button>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="TTT.js"></script>
+</body>
+</html>

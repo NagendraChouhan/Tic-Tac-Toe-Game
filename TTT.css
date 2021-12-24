@@ -1,0 +1,103 @@
+body
+{
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aside
+{
+    
+    box-shadow: 8px 8px 6px black;
+    max-width: 20%;
+    min-width: 12%;
+    min-height: 200px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    /* display: inline-block; */
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%; 
+    background-color: lightblue;
+}
+.section
+{
+    
+    display: inline-block;
+    max-width: 70%;
+    min-width: 40%;
+    max-height: 400px;
+    min-height: 300px;
+    padding: 1%;
+    margin: 1%;
+    margin-top: 8.5%;
+    float: right;
+    margin-left: 0%;
+}
+.main_div
+{
+    background-image: url(img/download.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3%;
+    margin: 1%;
+    width: 65%;
+    float: right;
+    box-shadow: 9px 9px 8px black;
+}
+.row_div
+{
+    padding: 0.5%;
+    text-align: center;
+    overflow: auto;
+    display: block;
+    height: auto;
+}
+.row_btn
+{
+    width: 65px;
+    height: 65px;
+    /* padding: 0.5%; */
+    margin: 1%;
+    border: none;
+    border-radius: 10px 10px;
+    background-color: gainsboro;
+    cursor: pointer;
+    font-size: 30px;
+    position: static;
+    text-align: center;
+    display: inline-block;
+}
+#result
+{
+    width: 95%;
+    height: 50px;
+    padding-top: 10%;
+    margin-top: 8%;
+    font-size: 25px;
+    color: brown;
+    box-shadow: 6px 6px 10px aliceblue;
+    background-color: powderblue;
+    text-align: center;
+    display: none;
+}
+.ox
+{
+    text-align: right;
+    width: 80%;
+    height: 25px;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+#star_btn
+{
+    min-width: 40%;
+    height: 40px;
+    border-radius: 5px 5px;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow:7px 8px 6px black;
+    font-size: 20px;
+}
